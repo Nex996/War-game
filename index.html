@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>War game</title>
+    <link rel="shortcut icon" href="img/battle-icon.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/Hobbit-Weapon.js" defer></script>
+    <script src="js/Hobbit.js" defer></script>
+    <script src="js/Orc-Weapon.js" defer></script>
+    <script src="js/Orc.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="info row">
+      <!-- Hobbit info -->
+      <div class="hobbit-info col-6"></div>
+      <!-- Hobbit info END-->
+
+      <!-- Orc info -->
+      <div class="orc-info col-6">
+      </div>
+      <!-- Orc info END -->
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- Hobbit army -->
+        <div class="hobbit-army flex-wrap justify-content-center"></div>
+        <!-- Hobbit army END -->
+        <div
+          class="d-flex justify-content-center align-items-center battleground"
+        >
+          <button type="button" class="btn btn-danger startBtn">
+            Start battle
+          </button>
+          <button type="button" class="btn btn-danger prepareBtn">
+            Prepare for battle
+          </button>
+        </div>
+        <!-- Orcs army -->
+        <div class="orcs-army flex-wrap justify-content-center"></div>
+        <!-- Orcs army END -->
+      </div>
+    </div>
+
+  
+  </body>
+</html>
